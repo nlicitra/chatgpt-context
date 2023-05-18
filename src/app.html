@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+		<style>
+			@font-face {
+				font-family: 'PBS Sans';
+				font-weight: 400;
+				src: url('https://www-tc.pbs.org/pbsfonts/v1.2/PBSSans.woff2') format('woff2'),
+					url('https://www-tc.pbs.org/pbsfonts/v1.2/PBSSans.woff') format('woff');
+				font-display: swap;
+			}
+			@font-face {
+				font-family: 'PBS Sans';
+				font-weight: 400;
+				font-style: italic;
+				src: url('https://www-tc.pbs.org/pbsfonts/v1.2/PBSSans-It.woff2') format('woff2'),
+					url('https://www-tc.pbs.org/pbsfonts/v1.2/PBSSans-It.woff') format('woff');
+				font-display: swap;
+			}
+ 
+		</style>
+	</head>
+	<body data-sveltekit-preload-data="hover" style="font-family: 'PBS Sans';">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
