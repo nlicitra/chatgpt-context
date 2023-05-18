@@ -8,7 +8,7 @@ OPEN_AI_API_KEY
 INTERNAL_API_KEY
 MEDIA_MANAGER_API_KEY
 ```
-The `INTERNAL_API_KEY` is for a small, custom API for prototyping that allows doing PBS.org searches outside of PBS web apps. Please reach out to Nick Licitra (nolicitra@pbs.org or @nolicitra on slack) if you would like a key generated for you.
+The `INTERNAL_API_KEY` is for a small, custom API for prototyping that allows doing PBS.org searches outside of PBS web apps. Please reach out to Nick Licitra (@nolicitra on slack) if you would like a key generated for you.
 
 ## Developing
 
